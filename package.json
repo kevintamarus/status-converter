@@ -1,0 +1,20 @@
+{
+  "name": "status-converter",
+  "version": "1.0.0",
+  "description": "converts 'failed' and 'completed' statuses to 'declined' and 'approved', replaces transaction messages with above conversions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "status",
+    "converter",
+    "failed",
+    "completed",
+    "declined",
+    "approved"
+  ],
+  "author": "Kevin Tamarus Tang",
+  "repository": "https://github.com/kevintamarus/status-converter.git",
+  "license": "ISC"
+}
