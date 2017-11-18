@@ -1,5 +1,5 @@
 module.exports = {
-  convertStatus: status => {
+  convertStatus: function(status) {
     if(status.toLowerCase() === 'failed') {
       return 'declined';
     }
@@ -8,7 +8,7 @@ module.exports = {
     }
     return status;
   },
-  convertTransactionMessage: message => {
+  convertTransactionMessage: function(message) {
     if(message.includes('failed')) {
       return message.replace(new RegExp('failed'), 'DECLINED');
     }
