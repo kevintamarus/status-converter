@@ -1,6 +1,6 @@
 {
   "name": "status-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "converts 'failed' and 'completed' statuses to 'declined' and 'approved', replaces transaction messages with above conversions",
   "main": "index.js",
   "scripts": {
