@@ -11,7 +11,7 @@ module.exports = {
     return status;
   },
   convertTransactionMessage: function(message) {
-    if(status) {
+    if(message) {
       if(message.includes('failed')) {
         return message.replace(new RegExp('failed'), 'DECLINED');
       }
